@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { ErroMsgComponent } from './compartilhado/erro-msg/erro-msg.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'crud-angular-api-restful';
+  titulo = 'CRUD de lembretes com angular';
 }
